@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["@babel/preset-react", { "runtime": "automatic" }],
+    ["@babel/preset-env", { "targets": { "node": "current" } }],
+    "@babel/preset-typescript"
+  ],
+  "plugins": [["@babel/transform-runtime"]],
+  "env": {
+    "production": {
+      "plugins": [
+        ["react-remove-properties", { "properties": ["data-testid"] }]
+      ]
+    }
+  }
+}
