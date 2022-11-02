@@ -1,4 +1,3 @@
-const Dotenv = require("dotenv-webpack");
 const port = process.env.PORT || 3000;
 
 module.exports = {
@@ -13,5 +12,4 @@ module.exports = {
     historyApiFallback: true,
     allowedHosts: "all",
   },
-  plugins: [new Dotenv()],
 };
