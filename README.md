@@ -1,7 +1,7 @@
 # Single Page Application
 
-Client running on https://transaction-spa.vercel.app
-Server running on https://transaction-spa-server.vercel.app (No need to run on local server)
+- Client running on https://transaction-spa.vercel.app
+- Server running on https://transaction-spa-server.vercel.app (No need to run on local server)
 
 ## Setup & Start
 
@@ -48,7 +48,7 @@ $ npm run build:start
 $ open http://localhost:3000
 ```
 
-#### Docker
+### Docker
 
 ```sh
 $ npm run build:docker
