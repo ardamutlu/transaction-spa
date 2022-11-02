@@ -1,6 +1,7 @@
 # Single Page Application
 
-server running on https://transaction-spa-server.vercel.app (No need to run on local server)
+Client running on https://transaction-spa.vercel.app
+Server running on https://transaction-spa-server.vercel.app (No need to run on local server)
 
 ## Setup & Start
 
