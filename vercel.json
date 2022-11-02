@@ -1,11 +1,9 @@
 {
   "version": 2,
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/",
-      "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
-    },
+    { "src": "^/dist/(.*)", "dest": "/dist/$1" },
+    { "src": ".*", "dest": "/index.html" },
     {
       "src": "/(.*)",
       "headers": { "key": "Access-Control-Allow-Credentials", "value": "true" }
